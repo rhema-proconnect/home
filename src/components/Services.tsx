@@ -2,42 +2,42 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Dolorum molestiae",
+    title: "Faites vous connaitre",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit laudantium",
+      "Proconnect la platforme qui vous permet de vous mettre envaleur vous et votre entreprise",
     image: "/images/services/1.svg",
-    alt: "Service description",
+    alt: "Se faire connaitre",
   },
   {
-    title: "Commodi mollitia",
+    title: "Une vitrine pour tout acteurs économique",
     description:
       "Nemo quos doloribus quo omnis mollitia nostrum excepturi impedit veniam ",
     image: "/images/services/2.svg",
     alt: "Service description",
   },
   {
-    title: "Neque numquam",
+    title: "Créer vous un Branding",
     description:
       "Accusantium eius omnis minus debitis est odio earum labore ad itaque mollitia",
     image: "/images/services/3.svg",
     alt: "Service description",
   },
   {
-    title: "Vero animi",
+    title: "Nous vous mettons en relation avec vos futres clients",
     description:
       "Dolores nemo labore soluta incidunt cumque repellat quod ducimus explicabo",
     image: "/images/services/4.svg",
     alt: "Service description",
   },
   {
-    title: "Repudiandae pariatur",
+    title: "Gérer vos rendez-vous avec les clients depuis Proconnect",
     description:
       "voluptatum ex molestiae quae alias quasi eum magnam maxime autem atque",
     image: "/images/services/5.svg",
     alt: "Service description",
   },
   {
-    title: "Placeat voluptas",
+    title: "Ne ratez pas une occasion de vous faire des clients",
     description:
       "vitae iure impedit magni consequuntur nihil consectetur laboriosam perspiciatis",
     image: "/images/services/6.svg",

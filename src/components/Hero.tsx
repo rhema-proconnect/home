@@ -24,21 +24,23 @@ opportunités.
                 </button>
               </Link>
             </div> */}
+            
                   <div className="flex justify-center">
-                 <input 
+                  <input 
                     type="text"
                     placeholder="Rechercher..."
-                    className="bg-white text-black text-base rounded-full px-4 p-2 font-medium"
+                    className="bg-white text-black text-base rounded-full px-20 p-2 font-medium"
                   />
                   </div>
-            
-            <div>
-              <Link href="#services">
-                <button className="bg-black dark:bg-white text-white dark:text-black text-base rounded-full px-4 p-2 font-medium">
-                  Recherche
-                </button>
-              </Link>
-            </div>
+                  <div>
+                      <Link href="#services">
+                          <button className="bg-black dark:bg-white text-white dark:text-black text-base rounded-full px-4 p-2 font-medium">
+                           Recherche
+                          </button>
+                      </Link>
+                  </div>
+                  
+
 
             
           </div>
