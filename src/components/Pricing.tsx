@@ -53,7 +53,7 @@ const products = [
     mostPopular: true,
   },
   {
-    title: "Freelancer",
+    title: "Etudiant",
     price: 240,
     currency: "$",
     frecuency: "year",
@@ -66,7 +66,7 @@ const products = [
       "Point of sale",
     ],
     href: "#",
-    cta: "Buy Freelancer",
+    cta: "Etudiant",
     mostPopular: true,
   },
   {
@@ -159,11 +159,10 @@ export default function Pricing() {
   return (
     <div className="bg-gray-50 dark:bg-neutral-900" id="pricing">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
-        <h2 className="text-4xl font-bold text-center">Pricing</h2>
+        <h2 className="text-4xl font-bold text-center">Prix</h2>
 
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          We have the perfect product for your business, choose the product that
-          best suits you, Try Halley free for 14 days.
+        Nous avons le produit parfait pour votre entreprise, choisissez le produit qui vous convient le mieux
         </p>
       </div>
 
@@ -178,7 +177,7 @@ export default function Pricing() {
                 : "ml-0.5 relative w-1/2 text-neutral-900 dark:text-neutral-400"
             } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8`}
           >
-            Monthly billing
+            Mensuel
           </button>
           <button
             onClick={() => setBillingInterval("year")}
@@ -189,7 +188,7 @@ export default function Pricing() {
                 : "ml-0.5 relative w-1/2 text-neutral-900 dark:text-neutral-400"
             } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8`}
           >
-            Yearly billing
+            Annuel
           </button>
         </div>
       </div>

@@ -3,24 +3,69 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqitems = [
   {
-    question: "What is your refund policy?",
+    question: "Qu'est-ce que votre plateforme offre aux professionnels ?",
     response:
-      "If youre unhappy with your purchase for any reason, email us within 90 days and well refund you in full, no questions asked.",
+      "Notre plateforme offre aux professionnels un monosite personnalisé, qui leur permet de présenter leurs services, d’augmenter leur visibilité en ligne, de faciliter la prise de rendez-vous avec leurs clients et de recevoir des avis notés sur leurs prestations.",
   },
   {
-    question: "Do you offer technical support?",
+    question: "Quels types de services peuvent être proposés sur votre plateforme ?",
     response:
-      "No, we dont offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Nous accueillons une variété de services professionnels, allant des services de bien-être (coaching, massages) aux services techniques (réparations, consultations) en passant par les services éducatifs (tutoring, formations). Toute prestation de service peut trouver sa place sur notre plateforme.",
   },
   {
-    question: "What is your refund policy? If youre unhappy with your purchase for any reasonIf youre unhappy with your purchase for any reasonIf youre unhappy with your purchase for any reason",
+    question: "Comment les clients prennent-ils des rendez-vous avec moi ?",
     response:
-      "If youre unhappy with your purchase for any reason, email us within 90 days and well refund you in full, no questions asked.",
+      "Vos clients peuvent prendre rendez-vous directement sur votre monosite via un calendrier interactif. Vous pouvez définir vos disponibilités et accepter ou modifier les demandes de rendez-vous à tout moment.",
   },
   {
-    question: "What forms of payment do you accept?",
+    question: "Comment les notations des services fonctionnent-elles ?",
     response:
-      "You can use any debit or credit card to pay for a subscription. We secure your card details and process payments via Stripe. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "Après chaque prestation, vos clients ont la possibilité de laisser un avis et une notation sur votre service. Ces évaluations vous permettent d’améliorer votre visibilité sur la plateforme et de renforcer la confiance des futurs clients.",
+  },
+  {
+    question: "Comment puis-je améliorer ma visibilité sur la plateforme ?",
+    response:
+      "Vous pouvez améliorer votre visibilité en optimisant votre profil, en accumulant des avis positifs, en partageant votre monosite sur vos réseaux sociaux et en participant à nos campagnes de promotion internes.",
+  },
+  {
+    question: "Quels sont les avantages d'avoir un monosite sur votre plateforme par rapport à un site web classique ?",
+    response:
+      "Un monosite sur notre plateforme est clé en main, optimisé pour la prise de rendez-vous et conçu pour maximiser votre visibilité. Vous n'avez pas à vous soucier de la gestion technique, et vous bénéficiez de nos outils de marketing, de suivi de performances et de notations. C'est une solution tout-en-un, accessible à tous.",
+  },
+  {
+    question: "Quels sont les frais pour utiliser la plateforme ?",
+    response:
+      "Nos tarifs varient en fonction du plan que vous choisissez. Nous proposons des options adaptées aux travailleurs autonomes, aux petites entreprises et aux grandes structures. Consultez notre rebrique \"Tarifs\" pour plus de détails.",
+  },
+  {
+    question: "Puis-je intégrer mon monosite à mes autres outils (site web, réseaux sociaux) ?",
+    response:
+      "Oui, nous offrons des intégrations pour que vous puissiez facilement partager votre monosite sur vos réseaux sociaux ou l'incorporer à votre site web existant.",
+  },
+  {
+    question: "Comment assurer la satisfaction de mes clients sur votre plateforme ?",
+    response:
+      "Assurez-vous d'être réactif aux demandes de rendez-vous, de fournir un excellent service, et d'encourager vos clients à laisser des avis après chaque prestation. Une bonne communication et une transparence sur vos services sont des clés pour maximiser la satisfaction.",
+  },
+  {
+    question: "Comment puis-je suivre mes rendez-vous et mes performances sur la plateforme ?",
+    response:
+      "Vous avez accès à un tableau de bord intuitif où vous pouvez gérer vos rendez-vous, consulter vos statistiques de visibilité, et suivre vos évaluations clients. Tout est conçu pour vous offrir une vue d'ensemble de votre activité.",
+  },
+  {
+    question: "",
+    response:
+      "",
+  },
+  {
+    question: "",
+    response:
+      "",
+  },
+  {
+    question: "",
+    response:
+      "",
   },
 ];
 
@@ -31,12 +76,12 @@ export default function Faq() {
       id="faq"
     >
       <h2 className="text-4xl font-bold text-center">
-        Frequently Asked Questions
+        Foire aux questions
       </h2>
 
       <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      Répondez ici aux éventuelles questions de vos clients, cela augmentera la
+      taux de conversion ainsi que les demandes d’assistance ou de chat.
       </p>
       <div className="mx-auto w-full max-w-2xl rounded-2xl bg-transparent dark:bg-transparent">
         {faqitems.map(({ question, response }) => (

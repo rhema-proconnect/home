@@ -15,7 +15,7 @@ const contents = [
     order: false,
   },
   {
-    title: "Products",
+    title: "Catalogue",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus at modi ea tempore sapiente optio, quas sint nobis pariatur.",
     features: [
@@ -23,11 +23,11 @@ const contents = [
       "Voluptatum deleniti atque corrupti quos",
       "He endures pains to avoid worse pains",
     ],
-    image: "/images/features/product.svg",
+    image: "/images/features/catalogue.svg",
     order: true,
   },
   {
-    title: "Inventory",
+    title: "page",
     description:
       "Porta facilisis ullamcorper rutrum erat luctus aliquam phasellus pharetra fusce, aliquet montes turpis mus habitasse lectus lacinia.",
     features: [
@@ -35,7 +35,7 @@ const contents = [
       "Quis autem vel eum iure reprehenderit",
       "Consequuntur magni dolores eos qui ratione",
     ],
-    image: "/images/features/inventory.svg",
+    image: "/images/features/page.svg",
     order: false,
   },
 ];
@@ -46,8 +46,7 @@ export function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-16 pb-16">
         <h2 className="text-4xl font-bold text-center">Features</h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Halley nunc pulvinar lobortis duis. Leo mollis neque ullamcorper
-          aliquam sem nullam, elementum vestibulum augue placerat.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem laboriosam harum dolorem asperiores maiores rem reprehenderit corrupti minus veniam cupiditate quis obcaecati, sequi repudiandae placeat odit nihil? Ducimus, labore veritatis?
         </p>
 
         {contents.map((content) => (
